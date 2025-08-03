@@ -1,0 +1,41 @@
+{
+  "name": "durum-kontrol-v14",
+  "version": "1.0.0",
+  "description": "Discord.js v14 ile gelişmiş durum kontrol bot altyapısı - Kullanıcıların özel durum mesajlarına göre otomatik rol verme/alma sistemi",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "durum-kontrol",
+    "discord.js",
+    "status-control",
+    "role-management",
+    "slash-commands",
+    "v14"
+  ],
+  "author": "EzTheBoss",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jokerizm3169/durum-kontrol-v14.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jokerizm3169/durum-kontrol-v14/issues"
+  },
+  "homepage": "https://github.com/jokerizm3169/durum-kontrol-v14#readme",
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "engines": {
+    "node": ">=16.9.0"
+  }
+}
